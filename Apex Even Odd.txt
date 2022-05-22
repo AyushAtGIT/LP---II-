@@ -1,0 +1,14 @@
+public class Even{
+    public static void evenMethod()
+    {
+	Integer i = 6; 
+	if(math.mod(i, 2) == 0)
+    {
+    system.debug('The number ' + i + ' is Even');
+    }
+    else
+    {
+        system.debug('The number ' + i + ' is Odd');
+	}
+    }
+}
